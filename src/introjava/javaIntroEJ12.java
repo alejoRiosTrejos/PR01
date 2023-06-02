@@ -8,21 +8,21 @@ public class javaIntroEJ12 {
     public static void main(String[] args) {
        
         
-        String frase1="Ayer, lunes, salimos a las once y 10.";
+        String fraseA="Ayer, lunes, salimos a las once y 10.";
         int size = 0;
                          
-        System.out.println("la frase ingresada es: " + frase1);
+        System.out.println("la frase ingresada es: " + fraseA);
         
         System.out.println("");
         
-        size = frase1.length();
+        size = fraseA.length();
         
         System.out.println("Ahora Traducido:  ");
         
         
         for (int i = 0; i < size; i++) {
             
-             switch(frase1.substring(i, i+1)){
+             switch(fraseA.substring(i, i+1)){
                  
                  case "a":{
                      System.out.print("@"); 
@@ -45,7 +45,7 @@ public class javaIntroEJ12 {
                         break;
                         }
                  default: {
-                        System.out.print(frase1.substring(i, i+1));
+                        System.out.print(fraseA.substring(i, i+1));
                         }  
                 }
         }
